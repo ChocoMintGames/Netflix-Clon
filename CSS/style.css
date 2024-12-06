@@ -91,3 +91,61 @@ header {
   nav .inicio:hover, .btn:hover{
     background-color: darkblue;
   }
+
+
+  .funciones-nav{
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+
+  }
+
+
+  .funciones-nav a{
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 125px;
+    line-height: 20px;
+  }
+
+
+  .funciones-nav a:hover{
+    color: white;
+  }
+
+
+  .funciones-nav a img{
+    height: 49px;
+  }
+
+
+  .funciones-nav a h2{
+    margin: 10px 0 0;
+    font-size: 1em;
+
+  }
+
+
+  .columns{
+    display: flex;
+  }
+
+
+  .columns{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+
+  .center{
+    margin: 0 auto;
+  }
+
+  .size-80{
+    width: 80%;
+  }
