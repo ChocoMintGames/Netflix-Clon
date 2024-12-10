@@ -92,8 +92,18 @@ header {
     background-color: darkblue;
   }
 
+  .funciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #141414;
+    
+  }
+
 
   .funciones-nav{
+    
     padding-top: 35px;
     background-color: #141414;
     border-bottom: 2px solid #3d3d3d;
@@ -102,6 +112,7 @@ header {
 
 
   .funciones-nav a{
+    
     text-decoration: none;
     text-align: center;
     vertical-align: top;
@@ -130,6 +141,7 @@ header {
 
 
   .columns{
+    
     display: flex;
   }
 
