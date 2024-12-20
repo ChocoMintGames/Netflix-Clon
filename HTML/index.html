@@ -3,51 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clon</title>
+    <link rel="icon" href="../IMG/netflixIcon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../CSS/style.css">
-    <title>Mintflix</title>
 </head>
 <body>
-    
-    <header>
+    <div class="encabezado">
         <nav>
-            <a class="logo" href="#">
-                <img src="../IMG/Mintflix.png">
-            </a>
-            <a class="inicio" href="https://www.netflix.com/login" > Iniciar Sesion</a>
-        </nav>
-        
-
-        <section class="tituloSubtitulo">
-            <h1 class="titulo">Películas y series ilimitadas y mucho más</h1>
-            <p class="subtitulo">A partir de $119. Cancela cuando quieras</p>
-            <button class="btn">Comenzar</button>
-        </section>
-    </header>
-    
-    <div class="funciones">
-        <nav class="funciones-nav">
-            <div class="center columns size-80">
-                <a href="#">
-                    <img alt="cancelaCuandoQuieras" src="../IMG/cancelIcon.svg">
-                    <h2>
-                        Cancela o cambia de plan en cualquier momento.
-                    </h2>
-                </a>
-                <a href="#">
-                    <img alt="miraDondeQuieras" src="../IMG/devicesIcon.svg">
-                    <h2>
-                        Mira en cualquier dispositivo.
-                    </h2>
-                </a>
-                <a href="#">
-                    <img alt="elegirPlan" src="../IMG/creditCard.svg">
-                    <h2>
-                        Elige el plan que tú quieras.
-                    </h2>
-                </a>
+            <img src="../IMG/logo.png" class="logo">
+            <div>
+                <button class="idiomaBtn"> Español<img src="../IMG/down-icon.png"></button>
+                <button> Inicio</button>
             </div>
         </nav>
+        <div class="contenidoEncabezado">
+            <h1>Películas y series ilimitadas y mucho más</h1>
+            <h3>A partir de $119. Cancela cuando quieras</h3>
+            <p>¿Quieres ver Netflix ya? Ingresa tú email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+            <form class="iniciarSesion">
+                <input type="email" placeholder="correo electronico" required>
+                <button type="submit">Comenzar</button>
+            </form>
+        </div>
     </div>
+    <div class="funciones">
+        <div class="fila">
+           
+            <div class="text-col">
+                <h2>Disfruta en tú TV</h2>
+                <p>Mira en tú smart TVs, PLayStation, Xbox, Chromecast, Apple TV, Blu-ray players y más.</p>
+            </div>
+            <div class="img-col">
+                <img src="../IMG/funcion-1.png" >
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="img-col">
+                <img src="../IMG/funcion-2.png" >
+            </div>
+            <div class="text-col">
+                <h2>Descarga tus programas para verlos offline</h2>
+                <p>Guarga tus favoritos y siempre tendrás algo que ver.</p>
+            </div>
+            
+        </div>
+
+        <div class="fila">
+           
+            <div class="text-col">
+                <h2>Mira en donde sea</h2>
+                <p>Transmite películas ilimitadas y programas de televisión en tú smartphone, tablet, laptop, y televisión.</p>
+            </div>
+            <div class="img-col">
+                <img src="../IMG/funcion-3.png" >
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="img-col">
+                <img src="../IMG/funcion-4.png" >
+            </div>
+            <div class="text-col">
+                <h2>Crea cuentas para niños</h2>
+                <p>Envía a los niños a aventuras con sus personajes favoritos en un espacio hecho solo para ellos, gratis con tu membresía</p>
+            </div>
+            
+        </div>
     
+        
+            
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2>Preguntas frecuentes</h2>
+        <ul class="acordeon">
+            <li>
+                <input type="radio" name="acordeon" id="primero">
+                <label for="primero">¿Qué es Netflix?</label>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet est nec velit sollicitudin mattis.
+                    Praesent sed orci a leo pretium aliquam iaculis a lectus.
+                    Morbi venenatis nibh et semper hendrerit.</p>
+                </div>
+
+            </li>
+
+             <li>
+                <input type="radio" name="acordeon" id="segundo">
+                <label for="segundo">¿Cuánto cuesta Netflix?</label>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet est nec velit sollicitudin mattis.
+                    Praesent sed orci a leo pretium aliquam iaculis a lectus.
+                    Morbi venenatis nibh et semper hendrerit.</p>
+                </div>
+
+            </li>
+             <li>
+                <input type="radio" name="acordeon" id="tercero">
+                <label for="tercero">¿Dónde puedo ver Netflix?</label>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet est nec velit sollicitudin mattis.
+                    Praesent sed orci a leo pretium aliquam iaculis a lectus.
+                    Morbi venenatis nibh et semper hendrerit.</p>
+                </div>
+
+            </li>
+              <li>
+                <input type="radio" name="acordeon" id="cuarto">
+                <label for="cuarto">¿Cómo cancelo?</label>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet est nec velit sollicitudin mattis.
+                    Praesent sed orci a leo pretium aliquam iaculis a lectus.
+                    Morbi venenatis nibh et semper hendrerit.</p>
+                </div>
+
+            </li>
+              <li>
+                <input type="radio" name="acordeon" id="quinto">
+                <label for="quinto">¿Qué puedo ver en Netflix?</label>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet est nec velit sollicitudin mattis.
+                    Praesent sed orci a leo pretium aliquam iaculis a lectus.
+                    Morbi venenatis nibh et semper hendrerit.</p>
+                </div>
+
+            </li>
+               <li>
+                <input type="radio" name="acordeon" id="sexto">
+                <label for="sexto">¿Es bueno Netflix para los niños?</label>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque aliquet est nec velit sollicitudin mattis.
+                    Praesent sed orci a leo pretium aliquam iaculis a lectus.
+                    Morbi venenatis nibh et semper hendrerit.</p>
+                </div>
+
+            </li>
+        </ul>
+        <small>¿Quieres ver Netflix ya? Ingresa tú email para crear una cuenta o reiniciar tu membresía de Netflix</small>
+        <form class="iniciarSesion">
+            <input type="email" placeholder="correo electronico" required>
+            <button type="submit">Comenzar</button>
+        </form>
+    </div>
+    <div class="pieDePagina">
+        <h2>¿Preguntas? Llama al 800 953 1430</h2>
+
+        <div class="fila">
+            <div class="col">
+                <a href="#">Preguntas frecuentes</a>
+                <a href="#">Centro de ayuda</a>
+                <a href="#">Cuenta</a>
+                <a href="#">Prensa</a>
+                </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+            
+                <a href="#">Relaciones con inversionistas</a>
+                <a href="#">Empleo</a>
+                <a href="#">Tienda de Netflix</a>
+                <a href="#">Canjear tarjetas de regalo</a>
+                </div>
+        </div>
+
+        <div class="fila">
+            <div class="col">
+                <a href="#">Comprar tarjetas de regalo</a>
+                <a href="#">Formas de ver</a>
+                <a href="#">Términos de uso</a>
+                <a href="#">Privacidad</a>
+                </div>
+        </div>
+
+        <div class="fila">
+            <div class="col">
+                <a href="#">Preferencias de cookies</a>
+                <a href="#">Información corporativa</a>
+                <a href="#">Contáctanos</a>
+                <a href="#">Pruebas de velocidad</a>
+                <a href="#">Avisos legales</a>
+                <a href="#">Solo en Netflix</a>
+                
+                </div>
+        </div>
+        <button class="idiomaBtn"> Español<img src="../IMG/down-icon.png"></button>
+        <p class="copyright-txt">Netflix México</p>
+    </div>
+
 </body>
 </html>
+
+
+
+
+
+
+
